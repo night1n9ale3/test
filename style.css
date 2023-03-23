@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body{
+    background-color: #f1b65c;
+}
+button{
+    margin-top: 200px;
+    position: relative;
+    left: 200px;
+    padding: 70px 500px;
+    background: white;
+    color: skyblue;
+    border-width: 5px;
+    border-radius: 400px;
+    border-color: skyblue;
+    font-size: 100px;
+}
+button:hover{
+    background: skyblue;
+    color: white;
+    border-color: white;
+    border-width: 5px;
+}
+button:focus{
+    background: black;
+    color: white;
+    border-width: 5px;
+    border-color: white;
+    transition: 2s;
+}
